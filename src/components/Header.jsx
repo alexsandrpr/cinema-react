@@ -13,7 +13,7 @@ const Header = () => {
             <div className='header__components'>
                 <ul className='components__list'>
                     <li className='components__item'>
-                        <a href='#'><img src={IconsSearch} className='icons__' /></a>
+                        <a href='#'><img src={IconsSearch} className='icons__search' /></a>
                     </li>
                     <li className='components__item'>
                         <a href='#'><img src={IconsSearch} className='icons__search' /></a>
