@@ -3,7 +3,7 @@
     width: 80px;
     height: 80px;
     padding: 8px;
-    left: 49%;
+    left: 47%;
     z-index: 1;
 }
 .header__photo{
@@ -15,9 +15,10 @@
     height: 648px;
 }
 .header__components{
-    position: relative;
-    float: right;
-    padding: 20px 50px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    padding: 25px 50px;
     z-index: 2;
 }
 .components__list{

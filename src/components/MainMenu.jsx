@@ -21,7 +21,7 @@ const Navbar = styled.div`
   justify-content: flex-start;
   padding: 12px 60px;
   background: rgba(0, 0, 0, 0.9) 0px 8px 16px;
-  z-index: 500;
+  z-index: 700;
 `;
 
 const MainMenu = () => {

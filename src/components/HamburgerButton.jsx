@@ -4,6 +4,8 @@ import { MenuContext } from '../components/navState';
 
 const MenuButton = styled.button`
   display: block;
+  position: fixed;
+  top: 15px;
   transform-origin: 16px 11px;
   float: left;
   margin-right: 29px;
@@ -11,6 +13,8 @@ const MenuButton = styled.button`
   border: 0;
   padding: 12px;
   background: none;
+ 
+  
 
   span {
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -54,6 +58,7 @@ const Bar = styled.span`
   height: 5px;
   margin-bottom: 7px;
   background-color: #fff;
+
 `;
 
 const HamburgerButton = () => {
