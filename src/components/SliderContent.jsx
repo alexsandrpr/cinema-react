@@ -11,7 +11,7 @@ function SliderContent({ activeIndex, sliderImage }) {
           <img className="slide-image" src={slide.urls} alt="" />
           <h2 className="slide-title">{slide.title}</h2>
           <h3 className="slide-text">{slide.description}</h3>
-          <a href="#" class="btn-hover" alt="Watch">{slide.button}</a>
+          <a href="/"><button class="button__buy tickets">Buy tickets</button>{slide.button}</a>
         </div>
       ))}
     </section>

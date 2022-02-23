@@ -1,7 +1,8 @@
 import React from 'react';
 import '../components/Header.css';
-import IconsSearch from '../img/icons_search.png';
-import IconsAccount from '../img/Account.png';
+import IconsFacebook from '../img/facebook.png';
+import IconsInstagram from '../img/instagram.png';
+import IconsTwitter from '../img/twitter.png';
 import HeaderLogo from '../img/header_logo.png';
 import Slider from './Slider';
 
@@ -14,10 +15,13 @@ const Header = () => {
             <div className='header__components'>
                 <ul className='components__list'>
                     <li className='components__item'>
-                        <a href='#'><img src={IconsSearch} className='icons__search' /></a>
+                        <a href='#'><img src={IconsFacebook} className='icons__facebook' /></a>
                     </li>
                     <li className='components__item'>
-                        <a href='#'><img src={IconsAccount} className='icons__account' /></a>
+                        <a href='#'><img src={IconsInstagram} className='icons__instagram' /></a>
+                    </li>
+                    <li className='components__item'>
+                        <a href='#'><img src={IconsTwitter} className='icons__twitter' /></a>
                     </li>
                 </ul>
             </div>
